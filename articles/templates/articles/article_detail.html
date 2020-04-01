@@ -1,0 +1,16 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+<div class="article-detail">
+    <div class="article">
+        <div class="images" style="padding: 13px;">
+            <img src="{{ article.raw_image.url }}"  style="max-width: 460px;"/>
+            <img src="{{ article.processed_image.url }}" style="max-width: 460px;"/>
+        </div>
+        <h2>{{ article.name }}</h2>
+        <h3>Uploaded by {{ article.author.username }}</h3>
+        <p>{{ article.date }}</p>
+    </div>
+</div>
+
+{% endblock %}

@@ -128,7 +128,7 @@ def image_upload(request):
             imm = I.fromarray(result)
             print(type(imm))
             
-            imm.save(settings.MEDIA_ROOT + "\\result.jpg")
+            imm.save(settings.MEDIA_ROOT + '//result.jpg')
 
 
             image = Image.objects.get(name=name)

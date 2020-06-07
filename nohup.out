@@ -1,0 +1,158 @@
+Watching for file changes with StatReloader
+[03/Apr/2020 10:51:38] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:51:44] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:52:00] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:52:14] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:52:17] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:52:18] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:53:38] "GET / HTTP/1.1" 200 1436
+[03/Apr/2020 10:53:51] "GET /admin/articles/image/ HTTP/1.1" 200 4994
+Not Found: /favicon.ico
+[03/Apr/2020 10:53:52] "GET /favicon.ico HTTP/1.1" 404 2679
+[03/Apr/2020 10:54:00] "GET / HTTP/1.1" 200 1783
+[03/Apr/2020 10:54:01] "GET /static/styles.css HTTP/1.1" 304 0
+[03/Apr/2020 10:54:01] "GET /static/logo.png HTTP/1.1" 304 0
+[03/Apr/2020 10:54:01] "GET /static/stars.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[03/Apr/2020 10:56:21] "GET /favicon.ico HTTP/1.1" 404 2679
+Not Found: /favicon.ico
+[03/Apr/2020 12:20:50] "GET /favicon.ico HTTP/1.1" 404 2679
+[03/Apr/2020 12:20:51] "GET / HTTP/1.1" 200 1783
+[03/Apr/2020 13:12:19] "GET / HTTP/1.1" 200 1783
+Not Found: /favicon.ico
+[03/Apr/2020 13:12:20] "GET /favicon.ico HTTP/1.1" 404 2679
+[03/Apr/2020 13:12:23] "GET /articles/Tower/ HTTP/1.1" 200 1389
+[03/Apr/2020 13:12:25] "GET /media/media/result_ZQuvxHN.jpg HTTP/1.1" 200 97780
+[03/Apr/2020 13:12:25] "GET /media/01.jpg HTTP/1.1" 200 199290
+[03/Apr/2020 13:12:30] "GET /articles/Flowers/ HTTP/1.1" 200 1391
+[03/Apr/2020 13:12:31] "GET /media/04.jpg HTTP/1.1" 200 219160
+[03/Apr/2020 13:12:31] "GET /media/media/result_xjlaGvn.jpg HTTP/1.1" 200 47268
+[03/Apr/2020 13:12:36] "GET /articles/Hall/ HTTP/1.1" 200 1399
+[03/Apr/2020 13:12:39] "GET /media/test7_6J00Dan.jpg HTTP/1.1" 200 306566
+[03/Apr/2020 13:12:39] "GET /media/media/result_yaddVKT.jpg HTTP/1.1" 200 328291
+[03/Apr/2020 13:12:51] "GET /articles/Barn/ HTTP/1.1" 200 1388
+[03/Apr/2020 13:12:52] "GET /media/media/result.jpg HTTP/1.1" 200 170016
+[03/Apr/2020 13:12:55] "GET /media/03_RbnYQud.jpg HTTP/1.1" 200 554616
+[03/Apr/2020 13:13:02] "GET /articles/Tower/ HTTP/1.1" 200 1389
+[03/Apr/2020 13:16:15] code 400, message Bad request version ('À\x14À')
+[03/Apr/2020 13:16:15] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[03/Apr/2020 13:25:43] "GET / HTTP/1.1" 200 1436
+Not Found: /favicon.ico
+[03/Apr/2020 13:25:44] "GET /favicon.ico HTTP/1.1" 404 2679
+Not Found: /favicon.ico
+[03/Apr/2020 13:35:09] "GET /favicon.ico HTTP/1.1" 404 2679
+Not Found: /favicon.ico
+[03/Apr/2020 13:40:22] "GET /favicon.ico HTTP/1.1" 404 2679
+Not Found: /favicon.ico
+[03/Apr/2020 13:41:11] "GET /favicon.ico HTTP/1.1" 404 2679
+----------------------------------------
+Exception happened during processing of request from ('104.152.52.24', 57280)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 172, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+[04/Apr/2020 03:30:14] "GET /static/logo.png HTTP/1.1" 304 0
+Not Found: /favicon.ico
+[04/Apr/2020 03:30:14] "GET /favicon.ico HTTP/1.1" 404 2679
+[04/Apr/2020 03:30:23] "GET / HTTP/1.1" 200 1783
+[04/Apr/2020 03:30:23] "GET /static/styles.css HTTP/1.1" 304 0
+[04/Apr/2020 03:30:24] "GET /static/stars.png HTTP/1.1" 304 0
+Watching for file changes with StatReloader
+[04/Apr/2020 04:19:54] "GET / HTTP/1.1" 200 1436
+[04/Apr/2020 06:12:06] "GET / HTTP/1.1" 200 1436
+Not Found: /favicon.ico
+[04/Apr/2020 07:04:42] "GET /favicon.ico HTTP/1.1" 404 2679
+[04/Apr/2020 07:04:52] "GET /articles/Flowers/ HTTP/1.1" 200 1044
+[04/Apr/2020 07:04:53] "GET /media/media/result_xjlaGvn.jpg HTTP/1.1" 200 47268
+[04/Apr/2020 07:04:57] "GET /media/04.jpg HTTP/1.1" 200 219160
+[04/Apr/2020 07:05:02] "GET /static/styles.css HTTP/1.1" 304 0
+[04/Apr/2020 07:05:02] "GET /static/logo.png HTTP/1.1" 304 0
+[04/Apr/2020 07:05:03] "GET /static/stars.png HTTP/1.1" 304 0
+[04/Apr/2020 08:27:17] "GET / HTTP/1.1" 200 1436
+[04/Apr/2020 11:12:23] "GET / HTTP/1.1" 200 1436
+[04/Apr/2020 11:12:23] "GET /static/logo.png HTTP/1.1" 304 0
+[04/Apr/2020 11:12:23] "GET /static/styles.css HTTP/1.1" 304 0
+[04/Apr/2020 11:12:24] "GET /static/stars.png HTTP/1.1" 304 0
+[04/Apr/2020 14:46:04] "GET / HTTP/1.1" 200 1436
+Watching for file changes with StatReloader
+[05/Apr/2020 08:51:37] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 08:52:02] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 08:52:03] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 10:03:49] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 10:03:59] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 12:47:26] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 12:55:29] "GET / HTTP/1.1" 200 1436
+[05/Apr/2020 13:01:08] "GET / HTTP/1.1" 200 1436
+Not Found: /http:/110.249.212.46/testget
+[05/Apr/2020 13:58:21] "GET http://110.249.212.46/testget?q=23333&port=8000 HTTP/1.1" 404 1754
+Not Found: /http:/110.249.212.46/testget
+[05/Apr/2020 13:58:21] "GET http://110.249.212.46/testget?q=23333&port=8000 HTTP/1.1" 404 1754
+Not Found: /http:/110.249.212.46/testget
+[05/Apr/2020 13:58:28] "GET http://110.249.212.46/testget?q=23333&port=8000 HTTP/1.1" 404 1754
+----------------------------------------
+Exception happened during processing of request from ('110.249.212.46', 30958)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+----------------------------------------
+Exception happened during processing of request from ('110.249.212.46', 58753)
+Traceback (most recent call last):
+  File "/usr/lib/python3.6/socketserver.py", line 654, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib/python3.6/socketserver.py", line 364, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib/python3.6/socketserver.py", line 724, in __init__
+    self.handle()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 174, in handle
+    self.handle_one_request()
+  File "/home/ubuntu/django/myprojectenv/lib/python3.6/site-packages/django/core/servers/basehttp.py", line 182, in handle_one_request
+    self.raw_requestline = self.rfile.readline(65537)
+  File "/usr/lib/python3.6/socket.py", line 586, in readinto
+    return self._sock.recv_into(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+----------------------------------------
+Not Found: /http:/110.249.212.46/testget
+[05/Apr/2020 13:58:30] "GET http://110.249.212.46/testget?q=23333&port=8000 HTTP/1.1" 404 1754
+Watching for file changes with StatReloader
+[06/Jun/2020 07:43:19] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 07:43:32] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 07:43:41] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 07:43:49] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 07:47:53] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 07:47:54] "GET /static/styles.css HTTP/1.1" 200 2216
+[06/Jun/2020 07:47:54] "GET /static/logo.png HTTP/1.1" 200 3040
+Not Found: /favicon.ico
+[06/Jun/2020 07:47:54] "GET /favicon.ico HTTP/1.1" 404 2679
+[06/Jun/2020 07:47:56] "GET /static/stars.png HTTP/1.1" 200 102460
+[06/Jun/2020 09:54:08] code 400, message Bad request syntax ('\x00\x00\x00TZ\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x04\x010I\x00\x00\x00\x00\x80\x0b¨À\x00\x0c)t F\x07\x00tsXrcsXYs9\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00bbXcsXctst\x00\x00\x00\x00\x00\x00')
+[06/Jun/2020 09:54:08] "   TZ          0I    ¨À )t F tsXrcsXYs9                      bbXcsXctst      " 400 -
+[06/Jun/2020 09:54:09] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 10:20:14] "GET / HTTP/1.1" 200 1436
+[06/Jun/2020 12:15:56] "GET / HTTP/1.1" 200 1436
+Not Found: /www.baidu.com:443
+[06/Jun/2020 19:31:26] "CONNECT www.baidu.com:443 HTTP/1.0" 404 1666
+[07/Jun/2020 00:40:28] "GET / HTTP/1.1" 200 1436

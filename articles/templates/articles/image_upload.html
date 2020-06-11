@@ -7,6 +7,9 @@
             {% csrf_token %}
             {{ form }}
             <input type="submit" value="Upload">
+            <div>For faster processing, please upload a image of size in the range of 200-250kb max.<br/>
+                 You can take a screenshot of the image to reduce its size. <br/>
+                 It will take some time to process the image, please wait for the same. </div>
         </form>
     </div>
 {% endblock %}

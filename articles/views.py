@@ -6,6 +6,7 @@ from . import forms
 from PIL import Image as I
 from django.conf import settings
 from django.core.files import File
+from django.template.defaultfilters import slugify
 
 import numpy as np
 import matplotlib.pyplot as plt
@@ -132,7 +133,7 @@ def image_upload(request):
 
 
             image = Image.objects.get(name=name)
-            image.slug=name
+            image.slug=slugify(name)
             f=open('media//result.jpg','rb')
             myfile=File(f)
             image.processed_image=myfile
